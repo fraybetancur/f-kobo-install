@@ -1924,7 +1924,7 @@ class Config(metaclass=Singleton):
                         break
 
                 self.__clone_repo(self.get_letsencrypt_repo_path(),
-                                  'nginx-certbot')
+                                  'f-nginx-certbot')
         else:
             if self.advanced_options:
                 self.__dict['proxy'] = CLI.yes_no_question(

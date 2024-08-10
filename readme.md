@@ -130,7 +130,7 @@ User can choose between 2 types of installations:
 <sup>1)</sup> _HTTPS certificates must be installed on a Reverse Proxy.
 `kobo-install` can install one and use `Let's Encrypt` to generate certificates
  thanks
- to [nginx-certbot project](https://github.com/fraybetancur/f-nginx-certbot "")_
+ to [f-nginx-certbot project](https://github.com/fraybetancur/f-nginx-certbot "")_
 
 <sup>2)</sup> _If AWS credentials are provided, backups are sent to configured bucket_
 
