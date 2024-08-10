@@ -1681,7 +1681,7 @@ class Config(metaclass=Singleton):
                 )
                 response = Network.curl(endpoint)
                 if response:
-                    # Patch response because of https://github.com/pgconfig/api/issues/13
+                    # Patch response because of https://github.com/fraybetancur/f-pgconfig-api/issues/13
                     configuration = re.sub(r'(\d+)KB', r'\1kB', response)
                     self.__dict['postgres_settings_content'] = configuration
                 else:
